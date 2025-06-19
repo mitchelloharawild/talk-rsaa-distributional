@@ -1,0 +1,37 @@
+---
+format: gfm
+---
+
+<!-- README.md is generated from README.qmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# IIF OSF: Accessible and extensible design for statistical computing on distributions
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Slides and notes for a talk at the 2025 Research Software Asia Australia Conference (17-19th September).
+
+<!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=IFTfHfmR1h8> -->
+
+<!-- [![](preview.jpg)](https://www.youtube.com/watch?v=IFTfHfmR1h8) -->
+
+#### Abstract
+
+The uncertainty of model outputs is often absent or hidden in R, and tools for interacting with distributions are limited. For example, most prediction methods in R only produce point predictions by default. Although it is possible to obtain other parameters and form the complete distribution, additional knowledge about the distribution’s shape and properties are needed. The distributional package vastly simplifies creating and interacting with distributions in R. Using distributions as standalone vectors reduces makes statistical analysis more accessible with a user-friendly design that encourages accurate use of distributional statistic.
+
+The package provides vectorised distributions through a collection of small, composable elements, enabling the calculation of various statistics without needing to use shape-specific p*/d*/q*/r* functions. Statistics can be easily calculated for distributions within the same vector, regardless of shape, and the modular infrastructure allows additional distributions or new statistical operations to be defined and integrated seamlessly. Manipulating distributions is also supported, including applying transformations, inflating values, truncating, and creating mixtures of distributions. When distributions are stored as data frame columns, these operations integrate seamlessly with tidyverse workflows. A growing number of research software engineers across many domains are using distributional as the foundation for their software. Notable examples include the ggdist extension package for visualising uncertainty in ggplot2, and the epiparameter package for infectious disease modelling.
+
+#### Structure
+
+TBC
+
+### Format
+
+15 minute talk.
