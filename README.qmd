@@ -32,6 +32,20 @@ The package provides vectorised distributions through a collection of small, com
 
 TBC
 
-### Format
+#### Learning Objectives
+
+1. Understand the limitations of conventional distribution functions in R
+
+2. Learn how distributional addresses these challenges with a more accessible and extensible design.
+
+3. See how to create, manipulate, and calculate statistics for a range of distributions using distributional’s user interface
+
+4. Understand the design principles of the distributional package, with particular emphasis on its extensibility and interoperability with other R packages.
+
+#### Presenter(s) Bio
+
+Mitchell O'Hara-Wild (he/him) is a PhD candidate at Monash University, creating new techniques and tools for exploring and forecasting time series. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. Mitchell is known for his user-friendly designs for statistical software, and he has recently been applying these design ideas to create vectorised data structures of distributions and time using vctrs.
+
+#### Format
 
 15 minute talk.
