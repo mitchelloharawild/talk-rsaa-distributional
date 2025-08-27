@@ -2,14 +2,14 @@
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
-# IIF OSF: Accessible and extensible design for statistical computing on distributions
+# RSAA25: Accessible and extensible design for statistical computing on distributions
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
 Slides and notes for a talk at the 2025 Research Software Asia Australia
-Conference (17-19th September).
+Conference (19th September).
 
 <!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=IFTfHfmR1h8> -->
 
@@ -46,7 +46,12 @@ disease modelling.
 
 #### Structure
 
-TBC
+- Examples of current model output, emphasise accessibility challenges
+- Introduction to the basics of distributional
+- Comparison with other libraries, while revealing more advanced
+  functionality
+- Examples of practical applications (calculating on distributions,
+  ggdist plotting)
 
 #### Learning Objectives
 
